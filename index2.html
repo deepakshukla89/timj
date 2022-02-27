@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/cf8674359a.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"> </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  
+  <!-- codepen  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+
+  <!-- boostrap js  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+  <!-- css file  -->
+  <link rel="stylesheet" href="./style/heritage.css">
+
+  <title>Think India MNIT Jaipur</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse sticky-top container1">
+    <div class="container-fluid nav1" style="display: flex; justify-content:flex-start; flex-direction:row ">
+      <div class="navbar-header">
+        <img id="logo_ti" class="padding_logo" src="images/thinkIndiaLogo.png" alt="thinkIndiaLogo">
+        <img id="logo_mnit" class="padding_logo" src="images/Mnit_logo.png" alt="Mnit_logo">
+      </div>
+      <ul class="nav navbar-nav heading headings">
+        <li>
+          <h1 id="heading1">THINK INDIA MNIT JAIPUR</h1>
+          <h1 id="heading2">थिंक इंडिया MNIT जयपुर</h1>
+        </li>
+      </ul>
+      <div class="menu" id="menu">
+        <div class="nav2">
+          <div class="menubtn" id="menubtn" onclick="tgl()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#services">Sections</a>
+            </li>
+            <li>
+              <a href="#projects">Blog</a>
+            </li>
+            <li>
+              <a href="#contact">Students Of TIMJ</a>
+            </li>
+            <li>
+              <a href="#contact">Think India</a>
+            </li>
+            <li>
+              <a href="#contact">MNIT Jaipur</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="myDIV">
+    <div class="container-fluid heritage ">
+      <div class="heritage_parent">
+        <div class="container heritage_back ">
+          <h1 class="heritage_head">Heritage & Enviornment Section</h1>
+          <p class="heritage_subhead">Let's know about heritage of india and share knowledge with others.</p>
+        </div>
+        <div>
+          <img class="heritage_img" src="images/heritage.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- <div  style="background-image: url(../images/initiative_back.png);" > -->
+  <div>
+    <div class="container">
+      <div class="initiative_head">
+        <p>Our <span style="color: #20c2f5;">Initiative</span></p>
+      </div>
+
+
+
+      <div class="first_row_ini">
+        <div class="second_row_ini">
+
+          <div class="initiative_box">
+            <div class="initiative_text initiative_text_flex">
+              <h2 class="initiHead">Kargil: The Saga War</h2>
+              <a href="#">More...</a>
+            </div>
+            <div class="initiative_img_all initiative_text_flex">
+              <img class="initiative_img1" src="images/TIRANGA.png" alt="">
+            </div>
+          </div>
+
+          <div class="initiative_box">
+            <div class="initiative_text initiative_text_flex">
+              <h2 class="initiHead">VeeraBhoomi: <br><span style="font-size: 12px;">The Unsung Heroes</span> </h2>
+              <a href="#">More...</a>
+            </div>
+            <div class="initiative_img_all initiative_text_flex">
+              <img class="initiative_img1" src="images/TIRANGA.png" alt="">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="second_row_ini">
+
+          <div class="initiative_box">
+            <div class="initiative_text initiative_text_flex">
+              <h2 class="initiHead">Food Factor</h2>
+              <a href="#">More...</a>
+            </div>
+            <div class="initiative_img_all initiative_text_flex">
+              <img class="initiative_img1" src="images/TIRANGA.png" alt="">
+            </div>
+          </div>
+
+          <div class="initiative_box">
+            <div class="initiative_text initiative_text_flex">
+              <h2 class="initiHead">Dhanvant:<br><span style="font-size: 12px;">The Medicinal Pants</span></h2>
+              <a href="#">More...</a>
+            </div>
+            <div class="initiative_img_all initiative_text_flex">
+              <img class="initiative_img1" src="images/TIRANGA.png" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="first_row_ini">
+        <div class="second_row_ini">
+
+          <div class="initiative_box">
+            <div class="initiative_text initiative_text_flex">
+              <h2 class="initiHead">Shooting Places</h2>
+              <a href="#">More...</a>
+            </div>
+            <div class="initiative_img_all initiative_text_flex">
+              <img class="initiative_img1" src="images/TIRANGA.png" alt="">
+            </div>
+          </div>
+
+          <div class="initiative_box">
+            <div class="initiative_text initiative_text_flex">
+              <h2 class="initiHead">Monthly Warmup</h2>
+              <a href="#">More...</a>
+            </div>
+            <div class="initiative_img_all initiative_text_flex">
+              <img class="initiative_img1" src="images/TIRANGA.png" alt="">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="second_row_ini">
+
+          <div class="initiative_box">
+            <div class="initiative_text initiative_text_flex">
+              <h2 class="initiHead">The Great Indian Universities</h2>
+              <a href="#">More...</a>
+            </div>
+            <div class="initiative_img_all initiative_text_flex">
+              <img class="initiative_img1" src="images/TIRANGA.png" alt="">
+            </div>
+          </div>
+
+          <div class="initiative_box">
+            <div class="initiative_text initiative_text_flex">
+              <h2 class="initiHead">Current Issues</h2>
+              <a href="#">More...</a>
+            </div>
+            <div class="initiative_img_all initiative_text_flex">
+              <img class="initiative_img1" src="images/TIRANGA.png" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- <section class="pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h3 class="mb-3">Carousel cards title </h3>
+        </div>
+        <div class="col-6 text-right">
+          <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+          </a>
+          <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="col-12">
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" >
+              <div class="carousel-item active" >
+                <div class="row" >
+
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row" >
+
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280"
+                        src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
+                      <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+
+
+  <div class="container" style="margin-top: 100px;">
+    <div>
+      <div class="initiative_head">
+        <p>The <span style="color: #20c2f5;">Magzine</span></p>
+      </div>
+
+      <div class="container row magzine_box">
+        <div class="col col-md-8">
+          <p style="padding-top: 25px;">About This Initiative:- Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <div class="row">
+            <div class="col-6 magzine_book">
+              <img class="magzine_book1" src="images/Image Placeholder.png" alt="">
+            </div>
+            <div class="col-6 magzine_book">
+              <img class="magzine_book1" src="images/Image Placeholder.png" alt="">
+            </div>
+            <div class="col-6 magzine_book">
+              <img class="magzine_book1" src="images/Image Placeholder.png" alt="">
+            </div>
+          </div>
+          <div class="row" style="display: inline;">
+            <button type="button" class="btn btn-light" style="color: #001F7E;
+                        ">Read Here</button>
+            <div style="float: right;">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-12 offset-md-1 col-md-3 latest_edition" style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card" style="width: 18rem; border: none;">
+            <img src="images/edition.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Current Edition
+              </h5>
+              <p> <b>About This Addition:-</b> is the official Eco-Business and Entrepreneurial news magazine of MNIT
+                Jaipur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container " style="margin-top: 100px;">
+    <div class="initiative_head">
+      <p>Event<span style="color: #20c2f5;">s</span></p>
+    </div>
+    <div class="events">
+      <div class="row" id="slidep1">
+        <div class="col-md-6">
+          <p style="padding-left: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Lorem exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+        </div>
+        <div class="offset-md-1 col-md-5 cultural_box">
+          <div class="card cultural_img" style="width: 18rem;">
+            <img src="images/cultural.png" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color: #20c2f5; color: #FFFFFF; text-align: center;">
+              <h5 class="card-title">OUR CULTURAL OUR PRIDE</h5>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- 2nd image content -->
+      <div class="row" id="slidep2" style="display: none;">
+        <div class="col-md-6">
+          <p style="padding-left: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Lorem exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat 2nd image.</p>
+        </div>
+        <div class="offset-md-1 col-md-5 cultural_box">
+          <div class="card cultural_img" style="width: 18rem;">
+            <img src="images/yara.png" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color: #20c2f5; color: #FFFFFF; text-align: center;">
+              <h5 class="card-title">OUR CULTURAL OUR PRIDE</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd image content -->
+      <div class="row" id="slidep3" style="display: none;">
+        <div class="col-md-6">
+          <p style="padding-left: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Lorem exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat 3rd image.</p>
+        </div>
+        <div class="offset-md-1 col-md-5 cultural_box">
+          <div class="card cultural_img" style="width: 18rem;">
+            <img src="images/cultural.png" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color: #20c2f5; color: #FFFFFF; text-align: center;">
+              <h5 class="card-title">OUR CULTURAL OUR PRIDE</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 4th image content -->
+      <div class="row" id="slidep4" style="display: none;">
+        <div class="col-md-6">
+          <p style="padding-left: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Lorem exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat 4th image.</p>
+        </div>
+        <div class="offset-md-1 col-md-5 cultural_box">
+          <div class="card cultural_img" style="width: 18rem;">
+            <img src="images/cultural.png" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color: #20c2f5; color: #FFFFFF; text-align: center;">
+              <h5 class="card-title">OUR CULTURAL OUR PRIDE</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col  col-lg-3 events_img show_hide">
+          <img class="events_img1" src="images/yara.png" onclick="myfan1()" alt="">
+        </div>
+        <div class="col col-lg-3 events_img show_hide">
+          <img class="events_img1" src="images/yara.png" onclick="myfan2()" alt="">
+        </div>
+        <div class="col-lg-3 col events_img show_hide">
+          <img class="events_img1" src="images/yara.png" onclick="myfan3()" alt="">
+        </div>
+        <div class="col-lg-3 col events_img show_hide">
+          <img class="events_img1" src="images/yara.png" onclick="myfan4()" alt="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container" style="margin-top: 100px;">
+    <div>
+      <div class="initiative_head">
+        <p>Our<span style="color: #20c2f5;"> Team</span></p>
+      </div>
+      <div style="padding-top: 25px;">
+        <div class="head_team_member">
+          <p>InCharge</p>
+        </div>
+        <div class="container row incharge" style="padding-top: 25px;padding-bottom: 25px;">
+          <div class="offset-md-3 col-md-3 col-6 men">
+            <div style="text-align: center;">
+              <img src="images/men.png" alt="">
+            </div>
+            <div style="text-align: center;">
+              <p style="margin-bottom: 0;">Rahul Garg</p>
+              <span style="color: #C05800;">B.tech 3rd Year Civil Engi. </span><span></span>
+            </div>
+          </div>
+
+          <div class=" col-md-3 col-6">
+            <div style="text-align: center;">
+              <img src="images/men.png" alt="">
+            </div>
+            <div style="text-align: center;">
+              <p style="margin-bottom: 0;">Aniket Kumar</p>
+              <span style="color: #C05800;">B.Tech 3rd Year Chemical Engi. </span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top: 25px;">
+        <div class="head_team_member">
+          <p>Members</p>
+        </div>
+        <div class="container  incharge" style="padding-top: 25px;padding-bottom: 25px;">
+          <div class="row">
+            <div class=" col-md-3 col-6 men">
+              <div style="text-align: center;">
+                <img src="images/men.png" alt="">
+              </div>
+              <div style="text-align: center;">
+                <p style="margin-bottom: 0;">Deepak Shukla</p>
+                <span style="color: #C05800;">State Covener </span><span>Jaipur Prant</span>
+              </div>
+            </div>
+
+            <div class=" col-md-3 col-6">
+              <div style="text-align: center;">
+                <img src="images/men.png" alt="">
+              </div>
+              <div style="text-align: center;">
+                <p style="margin-bottom: 0;">Amit Yadav</p>
+                <span style="color: #C05800;">State Co-Covener </span><span>Jaipur Prant</span>
+              </div>
+            </div>
+            <div class=" col-md-3 col-6 men">
+              <div style="text-align: center;">
+                <img src="images/men.png" alt="">
+              </div>
+              <div style="text-align: center;">
+                <p style="margin-bottom: 0;">Shreshtha Sriwastav</p>
+                <span style="color: #C05800;">President</span><span> MNIT Jaipur</span>
+              </div>
+            </div>
+            <div class=" col-md-3 col-6 men">
+              <div style="text-align: center;">
+                <img src="images/men.png" alt="">
+              </div>
+              <div style="text-align: center;">
+                <p style="margin-bottom: 0;">Niharika Agarawal</p>
+                <span style="color: #C05800;">Secretary</span><span> MNIT Jaipur</span>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="padding-top: 25px;padding-bottom: 25px;">
+            <div class=" col-md-3 col-6 men">
+              <div style="text-align: center;">
+                <img src="images/men.png" alt="">
+              </div>
+              <div style="text-align: center;">
+                <p style="margin-bottom: 0;">Deepak Shukla</p>
+                <span style="color: #C05800;">State Covener </span><span>Jaipur Prant</span>
+              </div>
+            </div>
+
+            <div class=" col-md-3 col-6">
+              <div style="text-align: center;">
+                <img src="images/men.png" alt="">
+              </div>
+              <div style="text-align: center;">
+                <p style="margin-bottom: 0;">Deepak Shukla</p>
+                <span style="color: #C05800;">State Covener </span><span>Jaipur Prant</span>
+              </div>
+            </div>
+            <div class=" col-md-3 col-6 men">
+              <div style="text-align: center;">
+                <img src="images/men.png" alt="">
+              </div>
+              <div style="text-align: center;">
+                <p style="margin-bottom: 0;">Deepak Shukla</p>
+                <span style="color: #C05800;">State Covener </span><span>Jaipur Prant</span>
+              </div>
+            </div>
+            <div class=" col-md-3 col-6 men">
+              <div style="text-align: center;">
+                <img src="images/men.png" alt="">
+              </div>
+              <div style="text-align: center;">
+                <p style="margin-bottom: 0;">Deepak Shukla</p>
+                <span style="color: #C05800;">State Covener </span><span>Jaipur Prant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div style="padding-top: 25px;">
+        <div class="head_team_member">
+          <p>InCharge</p>
+        </div>
+        <div class="container row incharge" style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="offset-md-3 col-md-3 col-6 men">
+            <div style="text-align: center;">
+              <img src="images/men.png" alt="">
+            </div>
+            <div style="text-align: center;">
+              <p style="margin-bottom: 0;">Deepak Shukla</p>
+              <span style="color: #C05800;">State Covener </span><span>Jaipur Prant</span>
+            </div>
+          </div>
+
+          <div class=" col-md-3 col-6">
+            <div style="text-align: center;">
+              <img src="images/men.png" alt="">
+            </div>
+            <div style="text-align: center;">
+              <p style="margin-bottom: 0;">Deepak Shukla</p>
+              <span style="color: #C05800;">State Covener </span><span>Jaipur Prant</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  
+   <!-- Site footer -->
+   <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About Think India</h6>
+          <p class="text-justify">Think India is an initiative to bring together the best talent of this country and to
+            infuse them with a nation first attitude. An active forum of researchers, professionals and students where
+            they debate on national issues, raise their concern and offer innovative solutions to problems. It is a
+            platform for the leaders of tomorrow.it is the only way to win the battle of minds which is being
+            relentlessly waged by the forces of anarchy and those who want the destruction of India. Think India
+            connects and introduce them to the change makers and the process of development.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/category/java-programming-language/">Think India</a></li>
+            <li><a href="http://scanfcode.com/category/android/">MNIT Jaipur</a></li>
+            <li><a href="http://scanfcode.com/category/c-language/">YouthFest'22</a></li>
+            <li><a href="http://scanfcode.com/category/back-end-development/">Web Team❤️</a></li>
+            <li><a href="http://scanfcode.com/category/templates/">Join Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Sections</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/about/">DIY SECTION</a></li>
+            <li><a href="http://scanfcode.com/contact/">HERITAGE & ENVIORNMENT SECTION</a></li>
+            <li><a href="http://scanfcode.com/contribute-at-scanfcode/">DEBATING SECTION</a></li>
+            <li><a href="http://scanfcode.com/privacy-policy/">ART & DESIGN SECTION</a></li>
+            <li><a href="http://scanfcode.com/sitemap/">ENTREPRENEURSHIP SECTION</a></li>
+          </ul>
+          <h6>Other Team❤️</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/about/">PUBLICITY & MANAGEMENT</a></li>
+            <li><a href="http://scanfcode.com/contact/">SAANIDHYA MAGAZINE</a></li>
+          </ul>
+        </div>
+        
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+            <a href="#">Think India MNIT Jaipur</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="youtube" href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="github" href="#"><i class="fa fa-github"></i></a></li>
+            <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="index.js">
+
+  </script>
+</body>
+
+</html>
